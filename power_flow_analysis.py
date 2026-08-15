@@ -33,5 +33,5 @@ net.bus["geo"] = [
 plot.simple_plot(net, plot_loads=True, plot_sgens=True, show_plot=False)
 
 import matplotlib.pyplot as plt
-plt.savefig("output/network_diagram.png", dpi=200)
+plt.savefig("output/network_diagram.png", dpi=300)
 print("\nDiagram saved to output/network_diagram.png")
